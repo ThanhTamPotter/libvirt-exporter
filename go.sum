@@ -1,3 +1,5 @@
+github.com/AlexZzz/libvirt-exporter v0.0.0-20191002142856-cec685f1be5e h1:i4rO8rb4Gb4T/odVR6YPpEcNtLdvm6m6vc/JIP7MGxE=
+github.com/AlexZzz/libvirt-exporter v0.0.0-20191002142856-cec685f1be5e/go.mod h1:QrJykErzwLD9ISHCLVwAUCkxghJNhUlqD2pIXm1Y/0g=
 github.com/alecthomas/template v0.0.0-20160405071501-a0175ee3bccc/go.mod h1:LOuyumcjzFXgccqObfd/Ljyb9UuFJ6TxHnclSeseNhc=
 github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751 h1:JYp7IbQjafoB+tBA3gMyHYHrpOtNuDiK/uB5uXxq5wM=
 github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751/go.mod h1:LOuyumcjzFXgccqObfd/Ljyb9UuFJ6TxHnclSeseNhc=

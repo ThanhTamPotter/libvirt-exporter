@@ -225,7 +225,7 @@ var (
 	libvirtDomainMemoryStatUsedPercentDesc = prometheus.NewDesc(
 		prometheus.BuildFQName("libvirt", "domain_memory_stats", "used_percent"),
 		"The amount of memory in percent, that used by domain.",
-		[]string{"domain"},
+		[]string{"domain", "instance_name"},
 		nil)
 )
 
@@ -566,7 +566,8 @@ func CollectDomain(ch chan<- prometheus.Metric, stat libvirt.DomainStats) error 
 		libvirtDomainMemoryStatUsedPercentDesc,
 		prometheus.GaugeValue,
 		float64(usedPercent),
-		domainName)
+		domainName,
+		desc.Metadata.NovaInstance.NovaName)
 
 
 	return nil
